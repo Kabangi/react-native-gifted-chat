@@ -213,26 +213,26 @@ export default class Bubble<
     nextMessage: PropTypes.object,
     previousMessage: PropTypes.object,
     containerStyle: PropTypes.shape({
-      left: {},
-      right: {},
+      left: PropTypes.object,
+      right: PropTypes.object,
     }),
     wrapperStyle: PropTypes.shape({
-      left: {},
-      right: {},
+      left: PropTypes.object,
+      right: PropTypes.object,
     }),
     bottomContainerStyle: PropTypes.shape({
-      left: {},
-      right: {},
+      left: PropTypes.object,
+      right: PropTypes.object,
     }),
     tickStyle: PropTypes.any,
     usernameStyle: PropTypes.any,
     containerToNextStyle: PropTypes.shape({
-      left: {},
-      right: {},
+      left: PropTypes.object,
+      right: PropTypes.object,
     }),
     containerToPreviousStyle: PropTypes.shape({
-      left: {},
-      right: {},
+      left: PropTypes.object,
+      right: PropTypes.object,
     }),
   }
 

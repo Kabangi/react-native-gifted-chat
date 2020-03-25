@@ -92,8 +92,8 @@ export default class MessageText<
     optionTitles: PropTypes.arrayOf(PropTypes.string),
     currentMessage: PropTypes.object,
     containerStyle: PropTypes.shape({
-      left: {},
-      right: {},
+      left: PropTypes.object,
+      right: PropTypes.object,
     }),
     textStyle: PropTypes.shape({
       left: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),

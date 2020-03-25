@@ -5,7 +5,6 @@ import {
   Platform,
   StyleSheet,
   TouchableOpacity,
-  ViewPropTypes,
 } from 'react-native'
 
 const MapView = Platform.select({
@@ -16,8 +15,8 @@ const MapView = Platform.select({
 export default class CustomView extends React.Component {
   static propTypes = {
     currentMessage: PropTypes.object,
-    containerStyle: ViewPropTypes.style,
-    mapViewStyle: ViewPropTypes.style,
+    containerStyle: {},
+    mapViewStyle: {},
   }
 
   static defaultProps = {
